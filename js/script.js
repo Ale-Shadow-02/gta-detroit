@@ -110,7 +110,7 @@ function menuSlider() {
 				menuSliderRemove();
 				pageSlider.slideTo(index, 800);
 				menuLink.classList.add('_active');
-				e.preventDefault();
+				// e.preventDefault();
 			});
 		}
 	}
