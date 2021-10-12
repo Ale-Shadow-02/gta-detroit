@@ -143,3 +143,20 @@ function setScrollType() {
 }
 
 pageSlider.init();
+
+new Swiper('.image-slider', {
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+	loop: true,
+	autoplay: {
+		delay: 3500,
+		disableOnInteraction: false,
+	},
+	effect: 'fade',
+	fadeEffect: {
+		crossFade: false,
+	}
+	
+});
