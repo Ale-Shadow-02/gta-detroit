@@ -153,8 +153,6 @@ body {
    height: 100%;
 }
 
-.page__screen {}
-
 .page__pagination {
    position: absolute;
    top: 50%;
